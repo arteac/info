@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Tanıtım Sayfam</title>
+    </head>
+    <body>
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Abdullah Oluç</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Ana Sayfa</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">Hakkımda</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Beceriler</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">İş</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">İletişim</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+        <main class="l-main">
+            <!--===== ANA SAYFA =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Merhaba<br>Ben <span class="home__title-color">Abdullah Oluç</span></h1>
+                    <a href="#contact" class="button">İletişim</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.facebook.com/abdullah.oluc.92/" class="home__social-icon"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://www.linkedin.com/in/abdullah-olu%C3%A7-046a91294/" class="home__social-icon"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="https://github.com/arteac" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+                <div class="home__img">
+                    <image class="home__blob-img" x="50" y="60" src="assets/img/about.jpg"/>
+                </div>
+            </section>
+            <!--===== HAKKIMDA =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">Hakkımda</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/back2.png" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">Abdullah Oluç</h2>
+                        <p class="about__text">Web Geliştiricisiyim, Genel Olarak HTML, CSS, PHP ve JavaScript Üzerine projeler geliştiririm.</p>           
+                    </div>                                   
+                </div>
+            </section>
+            <!--===== Beceriler =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Beceriler</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Becerilerim</h2>
+                        <p class="skills__text">HTML, CSS, JavaScript, PHP, TypeScript, Node JS</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">HTML</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">Bilgi Düzeyi: 95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">PHP</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">Bilgi Düzeyi: 80%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">TypeScript</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">Bilgi Düzeyi: 65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">NODE JS</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">Bilgi Düzeyi: 65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">CSS</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">Bilgi Düzeyi: 95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">JavaScript</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">Bilgi Düzeyi: 70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/web2.png" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== İŞ =====-->
+            <style>
+                .work__container {
+                display: flex;
+                flex-wrap: wrap;
+            }
+                .work__img {
+                margin: 10px;
+            }
+                .work__img img {
+                width: 300px;
+                height: 200px;
+                object-fit: cover;
+            }
+            </style>
+            <section class="work section" id="work">
+                <h2 class="section-title">İŞ</h2>
+
+                <div class="work__container bd-grid">
+                    <a href="" class="work__img">
+                        <img src="assets/img/html.png" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/js.png" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/web2.png" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/html.png" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/css.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/web2.png" alt="">
+                    </a>
+                </div>
+            </section>
+            <!--===== İLETİŞİM =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">İletişim</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <a href="https://www.linkedin.com/in/abdullah-olu%C3%A7-046a91294/" target="_blank"><input type="button" value="Gönder" class="contact__button button"></a>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Abdullah Oluç</p>
+            <div class="footer__social">
+                <a href="https://www.facebook.com/abdullah.oluc.92/" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://github.com/arteac" class="footer__icon"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.linkedin.com/in/abdullah-olu%C3%A7-046a91294/" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+            <p class="footer__copy">Bir Merakın Sonucu..</p>
+        </footer>
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
